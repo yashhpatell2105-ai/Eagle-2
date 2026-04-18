@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, origins="*")
 
 # ✅ Your local model path
-model = YOLO("E:/MachineLearning/my_model/my_model.pt")
+model = YOLO("my_model.pt")
 
 
 # ── Route 1: Returns annotated image ──
